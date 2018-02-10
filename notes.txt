@@ -42,3 +42,27 @@ Code affected: Direction.opposite
 Flaw: complex if statement could be replaced with switch
 
 Fix: replaced if statement with switch
+
+#########
+# Step 6
+Code affected: My Changed 
+
+Flaw: My Flaw 
+
+Fix: My Fix
+
+#########
+# Step 7
+Code affected: Program.Main 
+
+Flaw: git commit forced an infinite loop 
+
+Fix: Make git commit --no-verify
+
+#########
+# Step 8
+Code affected: Program.main 
+
+Flaw: UI was not clear 
+
+Fix: Clarify the UI

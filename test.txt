@@ -1,1 +1,1 @@
-git-commit-msg-notes.dll
+.git/COMMIT_EDITMSG
