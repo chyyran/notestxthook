@@ -98,3 +98,19 @@ Code affected: git post-commit
 Flaw: Amend commit can not be in Program 
 
 Fix: put commit amend in commit-msg hook
+
+#########
+# Step 13
+Code affected: Program.main 
+
+Flaw: Amend commit can not be in Program 
+
+Fix: put commit amend in commit-msg hook
+
+#########
+# Step 14
+Code affected: Program.main 
+
+Flaw: Lack of hacks 
+
+Fix: Additional hacks

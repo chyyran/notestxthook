@@ -56,7 +56,7 @@ namespace git_commit_msg_notes
             Console.WriteLine("Adding notes.txt to commit...");
             Process.Start("git", $"add {note}").WaitForExit();
             Console.WriteLine("Adding notes.txt to commit...");
-            File.Delete(".git/HEAD.lock"); //lol this is a hack
+            File.Delete(".git/HEAD.lock"); // This is the real hack.
             Process.Start("git", "commit --amend --no-verify").WaitForExit();
             Environment.Exit(0);
         }
