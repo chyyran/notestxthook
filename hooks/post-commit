@@ -23,4 +23,4 @@
 #	exit 1
 #}
 
-dotnet run git-commit-msg-notes.dll $1
+dotnet .git/hooks/git-post-commit-msg-notes.dll

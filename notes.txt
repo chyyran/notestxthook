@@ -122,3 +122,11 @@ Code affected: Program.main
 Flaw: Lack of hacks 
 
 Fix: Additional hacks
+
+#########
+# Step 16
+Code affected: lots of stuff 
+
+Flaw: There wasn't a README 
+
+Fix: Add a README because that's important.
