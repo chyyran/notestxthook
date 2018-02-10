@@ -1,0 +1,44 @@
+#########
+# Step 1
+
+Code affected: none
+
+Created this file.
+
+#########
+# Step 2
+
+Code affected: all .java files
+
+Reformatted using the Google Java style formatter.
+
+
+#########
+# Step 3
+
+Code affected: Path.leave
+
+Flaw: unnecessary if, leading to duplicate code.
+
+Fix: replaced if statement with a single assignment statement.
+
+
+
+#########
+# Step 4
+
+Code affected: Path
+
+Flaw: names of fields were unclear and abbreviated
+
+Fix: clarified field names
+
+
+#########
+# Step 5
+
+Code affected: Direction.opposite
+
+Flaw: complex if statement could be replaced with switch
+
+Fix: replaced if statement with switch
