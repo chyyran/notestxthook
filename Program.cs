@@ -54,9 +54,10 @@ namespace git_commit_msg_notes
 
             File.AppendAllText(note, headerToAppend);
             Console.WriteLine("Adding notes.txt to commit...");
-            Process.Start("git", $"add {note}");
-            Console.WriteLine("Amending commit...");
-            Process.Start("git", "commit --amend --no-verify");
+            Process.Start("git", $"add {note}").WaitForExit();
+            Console.WriteLine("Adding notes.txt to commit...");
+            File.Delete(".git/HEAD.lock"); //lol this is a hack
+            Process.Start("git", "commit --amend --no-verify").WaitForExit();
             Environment.Exit(0);
         }
     }

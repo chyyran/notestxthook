@@ -66,3 +66,35 @@ Code affected: Program.main
 Flaw: UI was not clear 
 
 Fix: Clarify the UI
+
+#########
+# Step 9
+Code affected: Program.main 
+
+Flaw: UI was not clear 
+
+Fix: Clarify the UI
+
+#########
+# Step 10
+Code affected: Program.main 
+
+Flaw: UI was not clear 
+
+Fix: Clarify the UI
+
+#########
+# Step 11
+Code affected: git post-commit 
+
+Flaw: Amend commit can not be in Program 
+
+Fix: put commit amend in commit-msg hook
+
+#########
+# Step 12
+Code affected: git post-commit 
+
+Flaw: Amend commit can not be in Program 
+
+Fix: put commit amend in commit-msg hook
